@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoShop Supply | EcoShine Cleaning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Fixed Navigation Header Matrix -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-leaf text-success me-2"></i>EcoShine</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigationLayout"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNavigationLayout">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="feedback.html">Enquiry/Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Inner Hero Area Definition -->
+    <section class="inner-hero">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Product Catalogue</li>
+          </ol>
+        </nav>
+        <h1 class="display-4 font-heading mt-2">Organic Procurement Shop</h1>
+        <p class="lead text-muted">Locally produced, toxicologically verified solutions with zero environmental runoff profiles.</p>
+      </div>
+    </section>
+
+    <!-- 6 Product Grid Section Showcase Matrix -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Product Card 1 -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">🌿</div>
+              <h4>Bio-All Multi-Surface Solution</h4>
+              <p class="text-muted text-justify small">Concentrated citrus oil extract designed for premium mechanical oil and surface grease extraction. Safe for all metal surfaces and countertops.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 85.00</div>
+                <button type="button" onclick="triggerToast('Bio-All Multi-Surface Solution')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div class="col-md-6 col-lg-4 reveal delay-1">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">🧼</div>
+              <h4>EcoPure Herbal Dish Liquid</h4>
+              <p class="text-muted text-justify small">Gentle, skin-neutral, pH-balanced formula packed with cold-pressed lemongrass essential oil molecules. Effectively cuts grease without chemical additives.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 55.00</div>
+                <button type="button" onclick="triggerToast('EcoPure Herbal Dish Liquid')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div class="col-md-6 col-lg-4 reveal delay-2">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">💎</div>
+              <h4>Kalahari Glass Sparkle Spray</h4>
+              <p class="text-muted text-justify small">Ammonia-free clear glass formulation utilizing pure distilled plant ethanol fractions. Guarantees zero streaks on solar frames or windows.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 65.00</div>
+                <button type="button" onclick="triggerToast('Kalahari Glass Sparkle Spray')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 4 -->
+          <div class="col-md-6 col-lg-4 reveal">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">🌲</div>
+              <h4>Okavango Pine Floor Polish</h4>
+              <p class="text-muted text-justify small">Organic tree resin extract mixed with sustainable local beeswax. Restores hard wood finishes and ceramic sealants safely.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 120.00</div>
+                <button type="button" onclick="triggerToast('Okavango Pine Floor Polish')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 5 -->
+          <div class="col-md-6 col-lg-4 reveal delay-1">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">💨</div>
+              <h4>Bio-Fresh Natural Deodorizer</h4>
+              <p class="text-muted text-justify small">Probiotic atmospheric solution that actively digests ambient odor molecules instead of masking them. Infused with pure lavender oil extract.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 75.00</div>
+                <button type="button" onclick="triggerToast('Bio-Fresh Natural Deodorizer')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 6 -->
+          <div class="col-md-6 col-lg-4 reveal delay-2">
+            <div class="card product-card text-center p-4">
+              <div class="fs-1 my-3" aria-hidden="true">🧺</div>
+              <h4>GreenWash Botanical Powder</h4>
+              <p class="text-muted text-justify small">Hyper-concentrated laundry compound that dissolves easily in cold water systems. Free from phosphates, optical brighteners, and chemical dyes.</p>
+              <div class="mt-auto">
+                <div class="text-success fw-bold fs-5 mb-3">BWP 140.00</div>
+                <button type="button" onclick="triggerToast('GreenWash Botanical Powder')" class="btn btn-eco-primary btn-sm w-100">Add to Booking Enquiry</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Procurement Instructions and Bank Node Details -->
+    <section class="py-5 bg-light-eco">
+      <div class="container reveal">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="bg-white p-4 border rounded shadow-sm">
+              <h3 class="mb-3 text-center text-success"><i class="fa-solid fa-building-columns me-2"></i>Bank Remittance Guidelines</h3>
+              <p class="text-muted text-center">To finalize product deliveries or clean bookings, please submit funds to the corporate account below and attach the transaction record to your enquiry submission.</p>
+              <div class="row g-3 p-3 font-monospace bg-light border rounded">
+                <div class="col-sm-4 text-sm-end fw-bold">Financial Entity:</div>
+                <div class="col-sm-8">First National Bank Botswana (FNBB)</div>
+                <div class="col-sm-4 text-sm-end fw-bold">Account Holder:</div>
+                <div class="col-sm-8">EcoShine Cleaning Services Ltd.</div>
+                <div class="col-sm-4 text-sm-end fw-bold">Account Number:</div>
+                <div class="col-sm-8">62908172635</div>
+                <div class="col-sm-4 text-sm-end fw-bold">Branch Identifier:</div>
+                <div class="col-sm-8">Corporate Branch Gaborone (Code: 281467)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Complete Standard Footer Component -->
+  <footer class="py-5 mt-auto">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-uppercase"><i class="fa-solid fa-leaf text-success me-2"></i>EcoShine Cleaning</h5>
+          <p class="text-white-50 text-justify mt-3">Providing sustainable, organic maintenance structures throughout Gaborone, Botswana. Preserving health, natural assets, and commercial infrastructure with custom biodegradable frameworks.</p>
+          <div class="mt-4">
+            <a href="#" class="social-icon" aria-label="Follow our business updates on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-icon" aria-label="View our portfolio grids on Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon" aria-label="Connect with our founder on LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Quick Directory</h5>
+          <ul class="list-unstyled lh-lg">
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="services.html">Services Suite</a></li>
+            <li><a href="products.html">Product Shop</a></li>
+            <li><a href="about.html">About Company</a></li>
+            <li><a href="feedback.html">Booking Request</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Service Classes</h5>
+          <ul class="list-unstyled lh-lg">
+            <li><a href="services.html">Residential Complexes</a></li>
+            <li><a href="services.html">Commercial Corporate</a></li>
+            <li><a href="services.html">Institutional Medical</a></li>
+            <li><a href="services.html">Solar Infrastructure</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Gaborone Headquarters</h5>
+          <address class="text-white-50 lh-lg font-monospace">
+            Plot 4817, Innovation Hub Way<br>
+            Gaborone, Botswana<br>
+            <i class="fa-solid fa-phone text-success me-2"></i>+267 391 0042<br>
+            <i class="fa-solid fa-envelope text-success me-2"></i>enquiries@ecoshine.co.bw
+          </address>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="row align-items-center">
+        <div class="col-md-12 text-center text-white-50 small">
+          <p class="mb-0">© 2026 EcoShine Cleaning | Designed by Larona Simon | WMD Assignment 2026</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
